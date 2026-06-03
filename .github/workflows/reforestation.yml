@@ -2,7 +2,7 @@ name: Daily GitHub Reforestation
 on:
   schedule:
     - cron: "0/5 * * * *"
-    - cron: "34 13 * * *"
+    - cron: "38 13 * * *"
     # - cron: "42 3 * * *"
     # - cron: "07 6 * * *"
     # - cron: "33 9 * * *"
