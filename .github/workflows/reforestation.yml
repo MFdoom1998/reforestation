@@ -2,7 +2,7 @@ name: Commit cheat
 
 on:
   schedule:
-  - cron: "0/5 * * * *"
+  - cron: "0 1/4 * * *"
 
 jobs:
   auto_commit:
