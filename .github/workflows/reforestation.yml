@@ -58,8 +58,8 @@ jobs:
       - name: Generate randomized git contribution
         if: steps.dice.outputs.skip != 'true'
         run: |
-          git config --local user.email "verglimn@gmail.com"
-          git config --local user.name "verglimn"
+          git config --local user.email "avaldo78@gmail.com"
+          git config --local user.name "mfdoom1998"
           git add -A
           git commit -m "$COMMIT_MSG"
           
